@@ -1,70 +1,71 @@
-# Python
-__pycache__/
-*.py[cod]
-*$py.class
-*.so
-.Python
-build/
-develop-eggs/
-dist/
-downloads/
-eggs/
-.eggs/
-lib/
-lib64/
-parts/
-sdist/
-var/
-wheels/
-*.egg-info/
-.installed.cfg
-*.egg
-
-# Virtual Environments
+```
+# Dependencies
+node_modules/
 venv/
-env/
-ENV/
-.venv
+.venv/
+__pycache__/
+.mypy_cache/
+.pytest_cache/
+dist/
+build/
+target/
+.gradle/
 
-# IDEs
+# Environment
+.env
+.env.local
+*.env.*
+
+# Editors
 .vscode/
 .idea/
-*.swp
-*.swo
-*~
-.DS_Store
 
-# Jupyter Notebooks
-.ipynb_checkpoints
-
-# Data
-data/raw/*.csv
-data/processed/*.csv
-!data/raw/.gitkeep
-!data/processed/.gitkeep
-
-# Models
-models/*.pkl
-models/*.joblib
-models/model_results.csv
-!models/.gitkeep
-
-# Reports
-reports/figures/*.png
-reports/figures/*.jpg
-!reports/figures/.gitkeep
-
-# Logs
+# Logs and temp files
 *.log
+*.tmp
+*.swp
 
 # OS
-Thumbs.db
 .DS_Store
+Thumbs.db
 
-# Testing
-.pytest_cache/
-.coverage
+# Coverage
+coverage/
 htmlcov/
+.coverage
 
-# Streamlit
-.streamlit/secrets.toml
+# Compiled files
+*.pyc
+*.class
+*.o
+*.exe
+*.dll
+*.so
+*.a
+*.obj
+*.out
+
+# Compressed files
+*.zip
+*.gz
+*.tar
+*.tgz
+*.bz2
+*.xz
+*.7z
+*.rar
+*.zst
+*.lz4
+*.lzh
+*.cab
+*.arj
+*.rpm
+*.deb
+*.Z
+*.lz
+*.lzo
+*.tar.gz
+*.tar.bz2
+*.tar.xz
+*.tar.zst
+```
